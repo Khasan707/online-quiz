@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_test_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/tv_question_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/tv_question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="8pt" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_answer_list"
+        app:layoutManager="LinearLayoutManager"
+        android:layout_gravity="center"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_prev_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:background="@color/colorBackgroundList"
+            android:textColor="@color/colorAccent"
+            android:text="@string/prev_question" />
+
+        <Button
+            android:id="@+id/btn_next_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:background="@color/colorBackgroundList"
+            android:textColor="@color/colorAccent"
+            android:text="@string/next_question" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_finish_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorBackgroundList"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="3dp"
+        android:text="@string/finish_test" />
+
+    <TextView
+        android:id="@+id/tv_user_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="8pt"
+        android:text="@string/your_answer" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

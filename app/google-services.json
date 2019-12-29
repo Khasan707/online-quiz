@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281483298748",
+    "firebase_url": "https://laba-universal-quiz.firebaseio.com",
+    "project_id": "laba-universal-quiz",
+    "storage_bucket": "laba-universal-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281483298748:android:231c58b5e4744793b88db9",
+        "android_client_info": {
+          "package_name": "com.khasan.quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281483298748-l6a2tpiql0v44eoi0qduvpk5vngf9nvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4TMakhn3N1D8a4Sj9FAkKcryFlFonEJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281483298748-l6a2tpiql0v44eoi0qduvpk5vngf9nvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
